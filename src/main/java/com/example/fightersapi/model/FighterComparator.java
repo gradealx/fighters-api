@@ -3,8 +3,8 @@ package com.example.fightersapi.model;
 import java.util.Comparator;
 
 /**
- * Compares the Robots by their experience property.
- * Robot with higher experience is preferred.
+ * Compares the Fighters by their experience property.
+ * Fighter with higher experience is preferred.
  */
 public class FighterComparator implements Comparator<Fighter> {
     @Override

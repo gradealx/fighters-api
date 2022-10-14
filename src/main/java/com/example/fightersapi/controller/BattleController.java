@@ -38,7 +38,6 @@ public class BattleController {
     @PostMapping("/battles")
     public void receiveFightersForBattle(@RequestBody List<String> fighterIds) {
 
-        System.out.println("!!!!!!");
         if (fighterIds.size() < 5) {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "At least 5 fighters need to be provided");
         }
