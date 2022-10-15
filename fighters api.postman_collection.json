@@ -1,0 +1,75 @@
+{
+	"variables": [],
+	"info": {
+		"name": "fighters api",
+		"_postman_id": "1cb246d9-5401-74c4-aa96-aee54b59616a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get all fighters",
+			"request": {
+				"url": "http://localhost:8080/fighters",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get all previous battles",
+			"request": {
+				"url": "http://localhost:8080/battles",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get leaderboard",
+			"request": {
+				"url": "http://localhost:8080/leaderboard",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get a specific fighter",
+			"request": {
+				"url": "http://localhost:8080/fighters/b",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "simulate battles",
+			"request": {
+				"url": "http://localhost:8080/battles",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\"a\",\"b\",\"c\",\"d\",\"e\",\"f\"]"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

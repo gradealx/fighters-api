@@ -18,3 +18,14 @@ services:
     restart: unless-stopped
     ports:
       - "8081:8081"
+  api:
+    container_name: api
+    image: fighters-api-img
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    links:
+      - mongo:fighter_db
+    restart: on-failure
