@@ -4,7 +4,7 @@ Java Spring and Docker playground for trying out things :)
 
 The project is a CRUD-like application consisting of an API (Java Spring) and a database (MongoDB).
 
-Further documentation can be found [here](https://google.com).
+Further documentation can be found [here](https://essentialistengineer.com/java-spring-api/).
 
 ## How-to-start
 
